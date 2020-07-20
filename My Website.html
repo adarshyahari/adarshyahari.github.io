@@ -8,47 +8,55 @@
 
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
       <link rel="stylesheet" type="text/css" href="My Website.css">
-      <link rel="shortcut icon" href="E:\Documents\Web Dev Files\AH.png">
-      <link rel="icon" href="E:\Documents\Web Dev Files\AH.png">
+      <link rel="shortcut icon" href="images/AH.png">
+      <link rel="icon" href="images/AH.png">
+
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@900&family=Poppins:wght@500&family=Raleway:wght@300;400&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?&display=swap" rel="stylesheet">
+
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lato:wght@900&family=Poppins:wght@500&family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+
 
       <title>Adarshya | Portfolio</title>
 
-
+  </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="60">
         
   <!--NAVBAR -->
-        <nav class="navbar sticky-top navbar-expand-sm navbar-dark" style="background-color: #161616;">
+        <nav class="navbar sticky-top navbar-expand-md navbar-dark py-1" style="background-color: black;">
           <nav class="container">
+          
+              <a  class="navbar-brand" href="#"><img src="images/AH.png" width="30" height="30"loading="lazy"></a>
+              <a class="navbar-brand px-3 d-mx-auto d-md-none" href="#"><i class="fas fa-paint-brush fa-lg"></i></a>
+          <a class="navbar-brand px-3 d-mx-auto d-md-none" href="#"><i class="fas fa-pen-fancy fa-lg"></i></a>
+           <span class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="icon-bar"><i class="fas fa-plus fa-lg rotate"></i></span>
+        
 
-              <a class="navbar-brand" href="#"><img src="E:\Documents\Web Dev Files\AH.png" width="30" height="30"loading="lazy"></a>
+        <div class="collapse navbar-collapse justify-content-center ml-5" id="navbarNav">
 
-              
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-
-              
-            <div class="collapse navbar-collapse justify-content-around mx-4 " id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link scroll" href="#about">About</a></li>
+          <ul class="nav navbar-nav">
+              <li class="nav-item"><a class="nav-link scroll" href="#about">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="#exp">Experience</a></li>
                 <li class="nav-item"><a class="nav-link" href="#skl">Skills</a></li>
                 <li class="nav-item"><a class="nav-link" href="#edu">Education</a></li>
-                <li class="nav-item"><a class="nav-link" href="#cert">Certifications</a></li>
+    <!--                 <li class="nav-item"><a class="nav-link" href="#cert">Certifications</a></li> -->
                 <li class="nav-item"><a class="nav-link" href="#con">Contact</a></li>
-              </ul>
-            </div>
+          </ul>
 
+
+        </div>
+        <a class="px-3 d-none d-md-inline" href="#" style="font-size: 1.55rem;"><i class="fas fa-paint-brush fa-xl"></i></a>
+         <a class="px-3 d-none d-md-inline" href="#" style="font-size: 1.55rem;"><i class="fas fa-pen-fancy fa-xl"></i></a>
+
+      
+              
           </nav>
         </nav>
         
        
 <!-- QUOTE -->
-  <div class="jumbotron jumbotron-fluid" id="intro">
+  <div class="jumbotron jumbotron-fluid p-4 d-none d-md-block " id="intro">
     <div class="container">
       <blockquote class="quote text-center">
         “There is nothing noble in being superior to your fellow man; true nobility is being superior to your former self.”
@@ -62,17 +70,17 @@
 <!-- ABOUT -->
   <div class="fluid-container mycontainer" id="about">
       <h3>About</h3>
-      <br>
       <div class="row justify-content-center">
         <div class="col-md-7 my-auto" style="padding-bottom: 30px">
-          <justify><center><p class="lead">Aspiring data scientist, developer, content writer, competetive coder, environmentalist, and tech enthusiast. </p>
+          <justify><center><p class="lead">Content writer, web developer, digital artist, zoophilist, and cinephile. </p>
             <hr>
-            <p>Active member of 2 institutonal organizations. Student by the week, mentor by the weekend. Always looking for learning opportunities! <br>Currently pursuing B.E. Computer Science at <strong>Sri Venkateswara College of Engineering, Sriperambadur.</strong> </p></center></justify>
+            <p>Active member of 2 institutonal organizations. <br>Student by the week, mentor by the weekend. <br>Always looking for learning opportunities! <br>Currently pursuing B.E. Computer Science at <strong>Sri Venkateswara College of Engineering, Sriperambadur.</strong> </p></center></justify>
         </div>
         <div class="clearfix visible-xs">
         </div>
-        <div class="col-md-3 mr-auto">
-          <center><img src="E:\Documents\Web Dev Files\IMG_20190728_170822.jpg" width = 300px id = "dp"></center>
+        <div class="col-md-5 mr-auto">
+          <img src="images/me2.png" class="img-thumbnail border-0">
+      </div>
         </div>
       </div>
   </div>
@@ -80,13 +88,49 @@
 <!-- EXPERIENCE -->
 
 <div class="fluid-container mycontainer"id="exp">
+  
   <h3>Experience</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est</p>
+  <br>
+
+    <div class="row exp-event" >
+      <div class="col-3 exp-date">
+          Nov 2019 - Present
+      </div>
+      <div class="col-1 exp-line">
+        <i class="fas fa-briefcase fa-2x justify-content-center" ></i>
+      </div>
+      <div class="col exp-box">
+        <h5>Hatch School of Code</h5>
+        <h6>Instructor</h6>
+        <p class="d-none d-sm-block">Taught students Python and HTML. As an instructor, my duties included mentoring students and helping them create interactive websites and programs. </p>
+    </div>
+     </div>
+        <div class="row exp-event" >
+      <div class="col-3 exp-date">
+          Aug 2019 - Present
+      </div>
+      <div class="col-1 exp-line">
+        <i class="fas fa-briefcase fa-2x justify-content-center" ></i>
+      </div>
+      <div class="col exp-box">
+        <h5>Association of Computer Engineers (ACE)</h5>
+        <h6>Content Writer</h6>
+        <p class="d-none d-sm-block" >ACE is the CSE department club of SVCE. As an executive member of ACE, I helped organize our national level symposium 'Interrupt' and our debut hackathon 'Hackerrupt'. I've also helped organize several intra-college competitions and seminars. As a content writer for the club, I've written professional content for our websites, emails, posters and invitations.</p>
+    </div>
+     </div>
+        <div class="row exp-event" >
+      <div class="col-3 exp-date">
+          Aug 2018 - Present
+      </div>
+      <div class="col-1 exp-line">
+        <i class="fas fa-briefcase fa-2x justify-content-center" ></i>
+      </div>
+      <div class="col exp-box">
+        <h5>Forum of Economic Studies by Engineers (FORESE)</h5>
+        <h6>Tech Team Member</h6>
+        <p class="d-none d-sm-block">FORESE is the club working directly under the Placement Cell to conduct events to improve the employability of students of SVCE. I've helped conduct our flagship event 'Mock Placements' and our Foreign Education event, along with </p>
+    </div>
+     </div>
 </div>
 
 <!-- SKILLS -->
@@ -105,14 +149,14 @@
     <li class="list-group-item hvr-grow rounded">Bootstrap</li>
     <li class="list-group-item hvr-grow rounded">SQL</li> 
   </ul> 
-  <ul class="list-group list-group-horizontal justify-content-center"> 
+<!--   <ul class="list-group list-group-horizontal justify-content-center"> 
     <li class="list-group-item hvr-grow rounded">Tableau</li> 
     <li class="list-group-item hvr-grow rounded">Gretl</li> 
     <li class="list-group-item hvr-grow rounded">Visualization</li> 
     <li class="list-group-item hvr-grow rounded">Modelling</li> 
     <li class="list-group-item hvr-grow rounded">DataWrangling</li> 
     <li class="list-group-item hvr-grow rounded">Presentation</li> 
-  </ul> 
+  </ul>  -->
   <ul class="list-group list-group-horizontal justify-content-center"> 
     <li class="list-group-item hvr-grow rounded">ContentWriting</li> 
     <li class="list-group-item hvr-grow rounded">Delegation</li> 
@@ -147,12 +191,14 @@
 
 <!-- CERTIFICATIONS -->
 
-<div class="fluid-container mycontainer " id="cert">
+<!-- <div class="fluid-container mycontainer " id="cert">
   
   <h3>Certifications and Achievements</h3>
   <br>
+
   <div class="card-columns ">
-    <div class="card">
+
+    <div class="card cert-card">
       <div class="card-body">
         <h5 class="card-title">Data Science </h5>
         <h6 class="card-subtitle mb-2 text-muted">Udemy . 2020</h6>
@@ -160,26 +206,13 @@
         <a href="https://www.udemy.com/certificate/UC-1ee31acc-bd26-48ed-b3cc-f4fc338e2879/" class="card-link">Certificate</a>
       </div>
     </div>
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Datce </h5>
-        <h6 class="card-subtitle mb-2 text-muted">Udemy . 2020</h6>
-        <p class="card-text">Data Preparation and Data Wrangling using SQL and Visual Studio, Data Modelling using Gretl, Data Visualization using Tableau. and Presentation. </p>
-        <a href="https://www.udemy.com/certificate/UC-1ee31acc-bd26-48ed-b3cc-f4fc338e2879/" class="card-link">Certificate</a>
-      </div>
-    </div>
-  </div>
-</div>
+
+</div> -->
 
 <!-- CONTACT -->
 <div class="fluid-container mycontainer" id="con">
 <h3>Contact</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est</p>
+<p><center>Let's talk!<br>Mail: adarshyahari@gmail.com<br>Phone: +91 70927 38888</center></p>
 </div>
 
 
@@ -188,10 +221,11 @@ proident, sunt in culpa qui officia deserunt mollit anim id est</p>
   <footer class="footer mt-auto py-0">
       <div class=" p-2">
         <ul class="nav justify-content-center">
-          <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-github-alt fa-lg"></i></a></li>
-          <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-linkedin-in fa-lg"> </i></a></li>
-          <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-medium-m fa-lg"></i></a></li>
+          <li class="nav-item"><a class="nav-link" href="https://github.com/adarshyahari"><i class="fab fa-github-alt fa-lg"></i></a></li>
+          <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/adarshya/"><i class="fab fa-linkedin-in fa-lg"> </i></a></li>
+          <li class="nav-item"><a class="nav-link" href="https://medium.com/@adarshyahari"><i class="fab fa-medium-m fa-lg"></i></a></li>
         </ul>
+
       </div>
   </footer>
 
@@ -201,5 +235,10 @@ proident, sunt in culpa qui officia deserunt mollit anim id est</p>
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+            <script>
+        $(".rotate").click(function () {
+                    $(this).toggleClass("down");
+                  })
+    </script>
     </body>
 </html>
