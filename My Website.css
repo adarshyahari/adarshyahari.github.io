@@ -185,6 +185,14 @@ text-align: left;
 .webLink:hover{
   color: grey;
 }
+.contactSection{
+  padding: 50px;
+  background-color: black;
+  color: white;
+}
+.contactSection p{
+  font-size: 1.4rem;
+}
 
 
 
