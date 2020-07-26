@@ -179,6 +179,13 @@ text-align: left;
     transform:rotate(45deg);
 }
 
+.webLink{
+  color: black;
+}
+.webLink:hover{
+  color: grey;
+}
+
 
 
 
