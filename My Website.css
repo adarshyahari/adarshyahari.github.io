@@ -87,6 +87,11 @@ margin: 5px;
     font-family: 'Poppins', sans-serif;
     font-size: 3.5vw;
 }
+@media (max-width: 800px){
+    .lead{
+      font-size: 1.5rem;
+    }
+}
 
 .footer{
   background-color:black;
@@ -156,11 +161,11 @@ text-align: left;
   text-align: justify;
 
 }
-.fab, .fa-paint-brush, .fa-pen-fancy, .fa-plus{
+.fab,/* .fa-paint-brush, .fa-pen-fancy,*/ .fa-plus{
   color: white;
 }
 
-.fab:hover, .fa-paint-brush:hover, .fa-pen-fancy:hover{
+.fab:hover/*, .fa-paint-brush:hover, .fa-pen-fancy:hover*/{
   color: rgba(255,255,255,0.5);
 }
 .navbar-dark .navbar-toggler {
@@ -168,10 +173,11 @@ text-align: left;
     margin-color: black;
 }
 .rotate {
+      -webkit-text-stroke: 3px black;
     -moz-transition: all .25s linear;
     -webkit-transition: all .25s linear;
     transition: all .25s linear;
-    -webkit-text-stroke: 3px black;
+
 }
 .rotate.down {
     -moz-transform:rotate(45deg);
@@ -192,6 +198,11 @@ text-align: left;
 }
 .contactSection p{
   font-size: 1.4rem;
+}
+@media (max-width: 600px){
+    .contactSection .display-1{
+      font-size: 4rem;
+    }
 }
 
 
