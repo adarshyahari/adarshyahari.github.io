@@ -471,13 +471,16 @@
     <div class="container">
       <p class="section-label fade-in">Explorations</p>
       <div class="exp-grid">
-
+        
         <a href="https://adarshyahari.github.io/lifethroughtime/" target="_blank" class="exp-feature-card fade-in">
           <video autoplay muted loop playsinline>
             <source src="https://cdn.prod.website-files.com/60edb82dc768dc845548601d%2F69c64808dbe3ff211fab1e6b_Screen%20Recording%202026-03-27%20at%2014.28.50_mp4.mp4" type="video/mp4" />
-           
+            <!-- fallback poster while video isn't linked yet -->
           </video>
-          
+          <!-- fallback background when video src is empty -->
+          <div style="position:absolute;inset:0;background:linear-gradient(135deg,#EBF3FC 0%,#d0e8f8 100%);display:flex;align-items:center;justify-content:center;">
+            <span style="font-size:0.85rem;color:var(--ink-muted);">Life Through Time</span>
+          </div>
           <div class="exp-label">
             <span>Life Through Time · Side Project</span>
             <span class="exp-label-arrow">↗</span>
